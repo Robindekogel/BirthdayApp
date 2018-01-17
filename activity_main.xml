@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.birthdayapp.MainActivity"
+    android:background="#fff">
+
+
+    <ImageView
+        android:id="@+id/BackgroundHB_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/hb1" />
+
+    <TextView
+        android:id="@+id/HB_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Happy Birthday!"
+        android:textColor="#fff"
+        android:textSize="35dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/From_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Van Robin"
+        android:textColor="#fff"
+        android:textSize="25dp"
+
+        />
+
+</RelativeLayout>
